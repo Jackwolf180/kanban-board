@@ -1,0 +1,15 @@
+.grouping-menu,
+.sorting-menu {
+  display: flex;
+  align-items: center;
+}
+
+.grouping-menu label,
+.sorting-menu label {
+  margin-right: 10px;
+}
+
+.grouping-menu select,
+.sorting-menu select {
+  padding: 5px;
+}

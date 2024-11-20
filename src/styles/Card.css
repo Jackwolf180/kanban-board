@@ -1,0 +1,55 @@
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-title {
+    margin: 0;
+  }
+  
+  .priority-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  
+  .priority-indicator.urgent {
+    background-color: red;
+  }
+  
+  .priority-indicator.high {
+    background-color: orange;
+  }
+  
+  .priority-indicator.medium {
+    background-color: yellow;
+  }
+  
+  .priority-indicator.low {
+    background-color: green;
+  }
+  
+  .priority-indicator.no-priority {
+    background-color: grey;
+  }
+  
+  .card-description {
+    margin: 10px 0;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #555;
+  }
+  
